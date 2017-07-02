@@ -10,7 +10,7 @@ def is_unique(string):
     return True
 
 
-def is_unique_2(string):
+def is_unique_ii(string):
     letters = list(string)
 
     for i in range(len(letters)):

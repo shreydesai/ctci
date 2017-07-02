@@ -1,7 +1,6 @@
 from unittest import TestCase, main, skip
 
-from ctci.ch1.question1 import is_unique
-from ctci.ch1.question1 import is_unique_2
+from ctci.ch1.question1 import is_unique, is_unique_ii
 from ctci.ch1.question2 import check_permutation
 from ctci.ch1.question3 import urlify
 from ctci.ch1.question4 import palindrome_permutation
@@ -18,9 +17,9 @@ class TestChapter1(TestCase):
         self.assertTrue(is_unique('abc'))
 
 
-    def test_is_unique_2(self):
-        self.assertFalse(is_unique_2('hello'))
-        self.assertTrue(is_unique('abc'))
+    def test_is_unique_ii(self):
+        self.assertFalse(is_unique_ii('hello'))
+        self.assertTrue(is_unique_ii('abc'))
 
 
     def test_check_permutation(self):
